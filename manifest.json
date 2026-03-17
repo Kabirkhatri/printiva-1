@@ -1,0 +1,817 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Printiva TemplateKit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templates.casloop.net",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.png",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.png",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Detail",
+            "screenshot": "screenshots\/service-detail.png",
+            "source": "templates\/service-detail.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/service-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Projects",
+            "screenshot": "screenshots\/projects.png",
+            "source": "templates\/projects.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.png",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.png",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.png",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.png",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/404-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Thank You",
+            "screenshot": "screenshots\/thank-you.png",
+            "source": "templates\/thank-you.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/thank-you\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.png",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templates.casloop.net\/printiva\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.7.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "4.0.6",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.31.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.14",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Tote-Bag.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Tote-Bag-800x1036.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 223010,
+            "dimensions": [
+                965,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/tote-bag-mockup-J2F7RD3"
+        },
+        {
+            "filename": "Sticker-4.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Sticker-4-800x616.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 132053,
+            "dimensions": [
+                1080,
+                832
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/sticker-mockup-86WRFHT"
+        },
+        {
+            "filename": "graphic-technician-s-hands-silkscreen-printing-wit-2025-04-03-19-22-12-utc-1.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/graphic-technician-s-hands-silkscreen-printing-wit-2025-04-03-19-22-12-utc-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 128915,
+            "dimensions": [
+                1250,
+                833
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/graphic-technicians-hands-silkscreen-printing-with-FFHWDE7"
+        },
+        {
+            "filename": "printer.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/printer.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 5497,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "file-size.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/file-size.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 7305,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "edit-text.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/edit-text.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 8355,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "Sponsor-1.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/Sponsor-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 5360,
+            "dimensions": [
+                200,
+                82
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/flaty-negative-space-property-logo-RU8F8W"
+        },
+        {
+            "filename": "Sponsor-2.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/Sponsor-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 5764,
+            "dimensions": [
+                200,
+                82
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/photocatz-pet-photography-logo-8LMD8G"
+        },
+        {
+            "filename": "Sponsor-3.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/Sponsor-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 5076,
+            "dimensions": [
+                200,
+                82
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/photodogz-pet-photography-logo-99PDUV"
+        },
+        {
+            "filename": "Sponsor-4.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/Sponsor-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6476,
+            "dimensions": [
+                200,
+                82
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/photopetz-pet-photography-logo-E636E4"
+        },
+        {
+            "filename": "Sponsor-5.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/Sponsor-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6725,
+            "dimensions": [
+                200,
+                82
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/sealight-negative-space-lighthouse-logo-HQWLKB"
+        },
+        {
+            "filename": "Project-1.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Project-1-800x576.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 105927,
+            "dimensions": [
+                1250,
+                900
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/oversize-t-shirt-mockup-C66YUVP"
+        },
+        {
+            "filename": "Project-2.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Project-2-800x576.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 83724,
+            "dimensions": [
+                1250,
+                900
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/flyer-mockup-QMNJ985"
+        },
+        {
+            "filename": "Project-3.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Project-3-800x576.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 128511,
+            "dimensions": [
+                1250,
+                900
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/trucker-hat-mockup-pro-edition-6N9Q9L6"
+        },
+        {
+            "filename": "Project-4.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Project-4-800x576.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 139456,
+            "dimensions": [
+                1250,
+                900
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/tote-bag-mockup-J2F7RD3"
+        },
+        {
+            "filename": "Projectt-5.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/Projectt-5-800x576.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 146029,
+            "dimensions": [
+                1250,
+                900
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/sticker-mockup-86WRFHT"
+        },
+        {
+            "filename": "Print-Team-1.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Print-Team-1-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 119195,
+            "dimensions": [
+                1080,
+                1350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/retouching-photographs-MYFKEQD"
+        },
+        {
+            "filename": "Print-Team-2.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Print-Team-2-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 89115,
+            "dimensions": [
+                1080,
+                1350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/young-woman-standing-holding-tight-orange-tablet-s-T8MRRKC"
+        },
+        {
+            "filename": "Print-Team-3.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Print-Team-3-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 114334,
+            "dimensions": [
+                1080,
+                1350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-girl-in-a-gray-hooded-sweater-leaned-again-9BNGV9Q"
+        },
+        {
+            "filename": "Print-Team-4.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Print-Team-4-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 121828,
+            "dimensions": [
+                1080,
+                1350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/young-man-next-to-the-board-at-the-office-USLZ5CG"
+        },
+        {
+            "filename": "printer-dark.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/printer-dark.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 5392,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "shirt.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/shirt.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 9681,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "color-wheel.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/color-wheel.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 17427,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "file.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/09\/file.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 6534,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/printing-icon-pack-U45GM8W"
+        },
+        {
+            "filename": "print-house-worker-controlling-printing-process-qu-2025-03-15-00-25-00-utc.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/print-house-worker-controlling-printing-process-qu-2025-03-15-00-25-00-utc-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 92799,
+            "dimensions": [
+                1250,
+                831
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/print-house-worker-controlling-printing-process-qu-7NZGV5X"
+        },
+        {
+            "filename": "cutting-a-stack-of-paper-for-printing-at-the-facto-2025-03-13-03-54-36-utc.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/cutting-a-stack-of-paper-for-printing-at-the-facto-2025-03-13-03-54-36-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 98075,
+            "dimensions": [
+                1250,
+                834
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/cutting-a-stack-of-paper-for-printing-at-the-facto-TYCGX4P"
+        },
+        {
+            "filename": "spectrometer-tool-with-printing-2025-04-02-05-32-53-utc-1.jpg",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/spectrometer-tool-with-printing-2025-04-02-05-32-53-utc-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 61440,
+            "dimensions": [
+                1250,
+                834
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/spectrometer-tool-with-printing-BJTNWFG"
+        },
+        {
+            "filename": "Printiva.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Printiva.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 2932,
+            "dimensions": [
+                210,
+                71
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "PRINTIVAA.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/PRINTIVAA-800x205.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 15976,
+            "dimensions": [
+                1223,
+                314
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Arroww.png",
+            "thumbnail_url": "https:\/\/templates.casloop.net\/printiva\/wp-content\/uploads\/sites\/59\/2025\/08\/Arroww-800x278.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 5227,
+            "dimensions": [
+                934,
+                325
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Printiva - High-quality printing solutions for your brand. Fast, colorful, and reliable.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printiva - 404 Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            background-color: var(--accent-orange);
+            color: var(--bg-cream);
+        }
+
+        .error-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            padding: 40px;
+        }
+
+        .error-giant-text {
+            font-family: var(--font-heading);
+            font-size: 15vw;
+            /* Scales with screen width */
+            line-height: 0.85;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
+
+        .error-giant-text .text-green {
+            color: var(--accent-green);
+        }
+
+        .error-description {
+            font-size: 18px;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+
+        .error-description span {
+            border-bottom: 2px solid white;
+        }
+
+        .btn-home {
+            background-color: #FFB30F;
+            /* Yellow-orange matching screenshot btn */
+            color: white;
+            padding: 12px 30px;
+            font-family: var(--font-heading);
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            display: inline-block;
+            letter-spacing: 1px;
+            align-self: flex-start;
+        }
+
+        .btn-home:hover {
+            background-color: #E6A20E;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="error-page">
+        <h1 class="error-giant-text">
+            PAGE <span class="text-green">NOT FOUND</span><br>
+            BUT PRINT IS REAL
+        </h1>
+        <p class="error-description">
+            Oops! The page you're looking for <span>doesn't exist.</span><br>
+            But don't worry, let's get you back on track.
+        </p>
+        <a href="index.html" class="btn-home">BACK TO HOME</a>
+    </main>
+</body>
+
+</html>
