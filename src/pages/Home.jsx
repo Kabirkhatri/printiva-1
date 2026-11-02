@@ -63,7 +63,7 @@ const Home = () => {
         const eased = 1 - Math.pow(1 - progress, 3);
         const current = Math.round(eased * target);
 
-        // Keep the span logic if suffix contains span (since we use dangerouslySetInnerHTML or native DOM here)
+        // Keep the span logic if suffix contains span
         el.innerHTML = current + suffix;
 
         if (progress < 1) {
@@ -154,11 +154,8 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="services-grid" style={{ flexWrap: 'wrap' }}>
-            <div
-              className="service-card card-green reveal-up reveal-stagger-1"
-              style={{ flex: '1 1 calc(33.333% - 20px)', minWidth: '250px' }}
-            >
+          <div className="services-grid services-grid-home">
+            <div className="service-card service-card-third card-green reveal-up reveal-stagger-1">
               <div className="icon">🏷️</div>
               <h3>STICKER/LABEL</h3>
               <p>
@@ -169,10 +166,7 @@ const Home = () => {
                 READ MORE
               </Link>
             </div>
-            <div
-              className="service-card card-pink reveal-up reveal-stagger-2"
-              style={{ flex: '1 1 calc(33.333% - 20px)', minWidth: '250px' }}
-            >
+            <div className="service-card service-card-third card-pink reveal-up reveal-stagger-2">
               <div className="icon">📦</div>
               <h3>PACKAGING</h3>
               <p>
@@ -182,10 +176,7 @@ const Home = () => {
                 READ MORE
               </Link>
             </div>
-            <div
-              className="service-card card-purple reveal-up reveal-stagger-3"
-              style={{ flex: '1 1 calc(33.333% - 20px)', minWidth: '250px' }}
-            >
+            <div className="service-card service-card-third card-purple reveal-up reveal-stagger-3">
               <div className="icon">📓</div>
               <h3>STATIONARY</h3>
               <p>
@@ -196,10 +187,7 @@ const Home = () => {
                 READ MORE
               </Link>
             </div>
-            <div
-              className="service-card card-purple reveal-up reveal-stagger-4"
-              style={{ flex: '1 1 calc(50% - 20px)', minWidth: '300px' }}
-            >
+            <div className="service-card service-card-half card-purple reveal-up reveal-stagger-4">
               <div className="icon">📈</div>
               <h3>MARKETING MATERIALS</h3>
               <p>
@@ -209,10 +197,7 @@ const Home = () => {
                 READ MORE
               </Link>
             </div>
-            <div
-              className="service-card card-purple reveal-up reveal-stagger-5"
-              style={{ flex: '1 1 calc(50% - 20px)', minWidth: '300px' }}
-            >
+            <div className="service-card service-card-half card-purple reveal-up reveal-stagger-5">
               <div className="icon">🏭</div>
               <h3>INDUSTRIES</h3>
               <p>

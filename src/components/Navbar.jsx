@@ -19,6 +19,18 @@ const Navbar = () => {
     setNavOpen(false);
   }, [location]);
 
+  // Prevent background scroll when mobile menu is open
+  useEffect(() => {
+    if (navOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [navOpen]);
+
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : ''} ${navOpen ? 'nav-open' : ''}`}>
       <Link to="/" className="logo">
@@ -64,6 +76,10 @@ const Navbar = () => {
         <span className="bar"></span>
         <span className="bar"></span>
       </button>
+
+      {navOpen && (
+        <div className="nav-backdrop" onClick={() => setNavOpen(false)} aria-hidden="true" />
+      )}
     </header>
   );
 };
