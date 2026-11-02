@@ -93,14 +93,10 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section id="home" className="hero" ref={sectionRef}>
+      <section id="home" className="hero">
         <div className="hero-content">
           <div className="hero-images">
-            <img
-              src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Tote-Bag.png"
-              alt="Tote Bag"
-              className="hero-img-left"
-            />
+            <img src="/images/bag.webp" alt="Tote Bag" className="hero-img-left" />
           </div>
           <div className="hero-text-block">
             <h1 className="title-bold">
@@ -117,11 +113,7 @@ const Home = () => {
             </p>
           </div>
           <div className="hero-images">
-            <img
-              src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Sticker-4.png"
-              alt="Stickers"
-              className="hero-img-right"
-            />
+            <img src="/images/sea.png" alt="Stickers" className="hero-img-right" />
           </div>
         </div>
       </section>
@@ -143,10 +135,7 @@ const Home = () => {
             </p>
           </div>
           <div className="about-image reveal-up">
-            <img
-              src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/graphic-technician-s-hands-silkscreen-printing-wit-2025-04-03-19-22-12-utc-1.jpg"
-              alt="Printing Technician"
-            />
+            <img src="/images/printer.jpg" alt="Printing Technician" />
           </div>
         </div>
       </section>
@@ -269,10 +258,7 @@ const Home = () => {
             </div>
           </div>
           <div className="stats-video reveal-up">
-            <img
-              src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/print-house-worker-controlling-printing-process-qu-2025-03-15-00-25-00-utc-800x532.jpg"
-              alt="Video cover"
-            />
+            <img src="/images/invitation.png" alt="Video cover" />
           </div>
         </div>
       </section>
@@ -289,31 +275,35 @@ const Home = () => {
         </div>
 
         <div className="showcase-grid">
-          <img
-            src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Project-1-800x576.png"
-            className="showcase-item reveal-up reveal-stagger-1"
-            alt="Shirt"
-          />
-          <img
-            src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Project-2-800x576.png"
-            className="showcase-item reveal-up reveal-stagger-2"
-            alt="Flyer"
-          />
-          <img
-            src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Project-3-800x576.png"
-            className="showcase-item reveal-up reveal-stagger-3"
-            alt="Cap"
-          />
-          <img
-            src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Project-4-800x576.png"
-            className="showcase-item bottom-left reveal-up reveal-stagger-4"
-            alt="Bag"
-          />
-          <img
-            src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Projectt-5-800x576.png"
-            className="showcase-item bottom-right reveal-up reveal-stagger-5"
-            alt="Stickers"
-          />
+          <div className="showcase-row">
+            <img
+              src="/images/tshit.png"
+              className="showcase-item reveal-up reveal-stagger-1"
+              alt="Shirt"
+            />
+            <img
+              src="/images/cards.png"
+              className="showcase-item reveal-up reveal-stagger-2"
+              alt="Flyer"
+            />
+            <img
+              src="/images/cap.png"
+              className="showcase-item reveal-up reveal-stagger-3"
+              alt="Cap"
+            />
+          </div>
+          <div className="showcase-row">
+            <img
+              src="/images/bag.webp"
+              className="showcase-item reveal-up reveal-stagger-4"
+              alt="Bag"
+            />
+            <img
+              src="/images/sea.png"
+              className="showcase-item reveal-up reveal-stagger-5"
+              alt="Stickers"
+            />
+          </div>
         </div>
       </section>
     </>
