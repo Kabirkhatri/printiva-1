@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-    const sectionRef = useRef(null);
+
 
     // Scroll reveal logic
     useEffect(() => {
@@ -43,7 +43,7 @@ const Home = () => {
         const animateCounter = (el) => {
             const text = el.getAttribute('data-value') || el.innerHTML;
             if (!el.getAttribute('data-value')) el.setAttribute('data-value', text);
-            
+
             const match = text.match(/^(\d+)/);
             if (!match) return;
 
@@ -57,7 +57,7 @@ const Home = () => {
                 const progress = Math.min(elapsed / duration, 1);
                 const eased = 1 - Math.pow(1 - progress, 3);
                 const current = Math.round(eased * target);
-                
+
                 // Keep the span logic if suffix contains span (since we use dangerouslySetInnerHTML or native DOM here)
                 el.innerHTML = current + suffix;
 
@@ -92,9 +92,9 @@ const Home = () => {
                             alt="Tote Bag" className="hero-img-left" />
                     </div>
                     <div className="hero-text-block">
-                        <h1 className="title-bold">THE BEST<br/>PRINTING MADE <span className="title-orange">FOR YOU</span></h1>
-                        <p className="hero-description">Bring your designs, packaging, and marketing ideas to life<br/>with
-                            Printiva — <strong>fast, colorful, and high-quality solutions</strong><br/>that save time and
+                        <h1 className="title-bold">THE BEST<br />PRINTING MADE <span className="title-orange">FOR YOU</span></h1>
+                        <p className="hero-description">Bring your designs, packaging, and marketing ideas to life<br />with
+                            Printiva — <strong>fast, colorful, and high-quality solutions</strong><br />that save time and
                             amplify your identity.</p>
                     </div>
                     <div className="hero-images">
@@ -109,7 +109,7 @@ const Home = () => {
                 <div className="container about-flex">
                     <div className="about-text reveal-up">
                         <h5 className="subtitle-orange">About Us</h5>
-                        <h2 className="section-title-white">Made To<br/><span className="section-title-orange">Standout</span></h2>
+                        <h2 className="section-title-white">Made To<br /><span className="section-title-orange">Standout</span></h2>
                         <p className="about-desc">We turn your wildest ideas into prints that pop. From sharp details to bold
                             colors, every piece is crafted to stand out and stay remembered. We don't just print on paper —
                             we print on vibes, energy, and creativity that lasts.</p>
@@ -127,29 +127,39 @@ const Home = () => {
                     <div className="services-header">
                         <div className="services-title reveal-up">
                             <h5 className="subtitle-light">Print Made Easy</h5>
-                            <h2 className="section-title-white">Way to<br/><span className="section-title-green">Create</span> Ideas</h2>
+                            <h2 className="section-title-white">Way to<br /><span className="section-title-green">Create</span> Ideas</h2>
                         </div>
                     </div>
 
-                    <div className="services-grid">
-                        <div className="service-card card-orange reveal-up reveal-stagger-1">
-                            <div className="icon">🖨️</div>
-                            <h3>SMART PRINTS</h3>
-                            <p>Turn bright ideas into bold prints that pop with color and clarity. Every detail is made to
-                                stand out.</p>
+                    <div className="services-grid" style={{ flexWrap: 'wrap' }}>
+                        <div className="service-card card-green reveal-up reveal-stagger-1" style={{ flex: '1 1 calc(33.333% - 20px)', minWidth: '250px' }}>
+                            <div className="icon">🏷️</div>
+                            <h3>STICKER/LABEL</h3>
+                            <p>Premium custom stickers and labels for your brand packaging, available in all shapes.</p>
                             <Link to="/service-detail" className="read-more">READ MORE</Link>
                         </div>
-                        <div className="service-card card-green reveal-up reveal-stagger-2">
-                            <div className="icon">📄</div>
-                            <h3>FLEX SIZES</h3>
-                            <p>Prints that fit your needs, whether tiny or tall, wide or slim. We make every size shine.</p>
+                        <div className="service-card card-pink reveal-up reveal-stagger-2" style={{ flex: '1 1 calc(33.333% - 20px)', minWidth: '250px' }}>
+                            <div className="icon">📦</div>
+                            <h3>PACKAGING</h3>
+                            <p>Custom packaging solutions to make your products stand out on any shelf or display.</p>
                             <Link to="/service-detail" className="read-more">READ MORE</Link>
                         </div>
-                        <div className="service-card card-purple reveal-up reveal-stagger-3">
-                            <div className="icon">T</div>
-                            <h3>QUICK EDITS</h3>
-                            <p>From small tweaks to major fixes, we sharpen your files with ease. Clean layouts and crisp
-                                results.</p>
+                        <div className="service-card card-purple reveal-up reveal-stagger-3" style={{ flex: '1 1 calc(33.333% - 20px)', minWidth: '250px' }}>
+                            <div className="icon">📓</div>
+                            <h3>STATIONARY</h3>
+                            <p>High-quality stationary printing including business cards, letterheads, and envelopes.</p>
+                            <Link to="/service-detail" className="read-more">READ MORE</Link>
+                        </div>
+                        <div className="service-card card-purple reveal-up reveal-stagger-4" style={{ flex: '1 1 calc(50% - 20px)', minWidth: '300px' }}>
+                            <div className="icon">📈</div>
+                            <h3>MARKETING MATERIALS</h3>
+                            <p>Flyers, brochures, and banners that capture attention and drive real engagement.</p>
+                            <Link to="/service-detail" className="read-more">READ MORE</Link>
+                        </div>
+                        <div className="service-card card-purple reveal-up reveal-stagger-5" style={{ flex: '1 1 calc(50% - 20px)', minWidth: '300px' }}>
+                            <div className="icon">🏭</div>
+                            <h3>INDUSTRIES</h3>
+                            <p>Specialized printing services tailored perfectly to match your specific industry needs.</p>
                             <Link to="/service-detail" className="read-more">READ MORE</Link>
                         </div>
                     </div>
@@ -158,29 +168,17 @@ const Home = () => {
 
             {/* Banner Section */}
             <section className="banner-section">
-                <h2 className="banner-text reveal-scale">MAKE YOUR BRAND STAND<br/>OUT WITH <span className="text-pink">PRINTIVA</span></h2>
+                <h2 className="banner-text reveal-scale">MAKE YOUR BRAND STAND<br />OUT WITH <span className="text-pink">PRINTIVA</span></h2>
             </section>
 
             {/* Sponsors & Stats */}
             <section className="sponsors-stats">
-                <div className="sponsors">
-                    <h3 className="sponsors-title">Sponsors</h3>
-                    <div className="sponsor-logos">
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-2.png" 
-                             alt="PhotoCatz" className="reveal-up reveal-stagger-1"/>
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-3.png"
-                             alt="PhotoDogz" className="reveal-up reveal-stagger-2"/>
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-4.png"
-                             alt="PhotoPetz" className="reveal-up reveal-stagger-3"/>
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-5.png"
-                             alt="SeaLight" className="reveal-up reveal-stagger-4"/>
-                    </div>
-                </div>
+
 
                 <div className="stats-container">
                     <div className="stats-text-area reveal-up">
                         <h5 className="subtitle-orange">Why Printiva</h5>
-                        <h2 className="section-title-white">Bold <span className="text-pink">Printing</span><br/>Concept</h2>
+                        <h2 className="section-title-white">Bold <span className="text-pink">Printing</span><br />Concept</h2>
                         <div className="stats-desc">
                             <p>At Printiva, printing is made simple, fast, and reliable every day. We turn your ideas into
                                 bold visuals that stand out.</p>
@@ -194,31 +192,14 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="stats-numbers">
-                    <div className="stat-item reveal-up reveal-stagger-1">
-                        <h2 dangerouslySetInnerHTML={{__html: '50<span class="dot-orange">.</span>'}}></h2>
-                        <p>Years</p>
-                    </div>
-                    <div className="stat-item reveal-up reveal-stagger-2">
-                        <h2 dangerouslySetInnerHTML={{__html: '120<span class="dot-orange">.</span>'}}></h2>
-                        <p>Clients</p>
-                    </div>
-                    <div className="stat-item reveal-up reveal-stagger-3">
-                        <h2 dangerouslySetInnerHTML={{__html: '12<span class="dot-pink">.</span>'}}></h2>
-                        <p>Awards</p>
-                    </div>
-                    <div className="stat-item reveal-up reveal-stagger-4">
-                        <h2 dangerouslySetInnerHTML={{__html: '37<span class="dot-green">.</span>'}}></h2>
-                        <p>Team</p>
-                    </div>
-                </div>
+
             </section>
 
             {/* Showcase Section */}
             <section className="showcase">
                 <div className="showcase-header">
                     <h5 className="subtitle-orange">Print Showcase</h5>
-                    <h2 className="section-title-blue">Where Ideas<br/><span className="text-pink">Come</span> Alive</h2>
+                    <h2 className="section-title-blue">Where Ideas<br /><span className="text-pink">Come</span> Alive</h2>
                 </div>
 
                 <div className="showcase-grid">

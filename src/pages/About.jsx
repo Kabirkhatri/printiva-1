@@ -92,7 +92,7 @@ const About = () => {
                     <div className="about-text reveal-up">
                         <h5 className="subtitle-orange">About Us</h5>
                         <h2 className="section-title-white">Made To<br/><span className="section-title-orange">Standout</span></h2>
-                        <p className="about-desc">We turn your wildest ideas into prints that pop. From sharp details to bold
+                        <p className="about-desc" style={{ color: 'var(--bg-cream)', opacity: 0.9 }}>We turn your wildest ideas into prints that pop. From sharp details to bold
                             colors, every piece is crafted to stand out and stay remembered. We don't just print on paper —
                             we print on vibes, energy, and creativity that lasts.</p>
                     </div>
@@ -122,99 +122,9 @@ const About = () => {
                             alt="Video cover" />
                     </div>
                 </div>
-
-                <div className="stats-numbers-blue">
-                    <div className="stat-item reveal-up reveal-stagger-1">
-                        <h2 dangerouslySetInnerHTML={{__html: '50<span class="dot-orange">.</span>'}}></h2>
-                        <p>Years</p>
-                    </div>
-                    <div className="stat-item reveal-up reveal-stagger-2">
-                        <h2 dangerouslySetInnerHTML={{__html: '120<span class="dot-orange">.</span>'}}></h2>
-                        <p>Clients</p>
-                    </div>
-                    <div className="stat-item reveal-up reveal-stagger-3">
-                        <h2 dangerouslySetInnerHTML={{__html: '12<span class="dot-pink">.</span>'}}></h2>
-                        <p>Awards</p>
-                    </div>
-                    <div className="stat-item reveal-up reveal-stagger-4">
-                        <h2 dangerouslySetInnerHTML={{__html: '37<span class="dot-green">.</span>'}}></h2>
-                        <p>Team</p>
-                    </div>
-                </div>
             </section>
 
-            {/* Sponsors Section (Blue) */}
-            <section className="sponsors-blue">
-                <h3 className="sponsors-title-white">Sponsors</h3>
-                <div className="sponsor-logos">
-                    <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-2.png"
-                        alt="PhotoCatz" className="reveal-up reveal-stagger-1"/>
-                    <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-3.png"
-                        alt="PhotoDogz" className="reveal-up reveal-stagger-2"/>
-                    <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-4.png"
-                        alt="PhotoPetz" className="reveal-up reveal-stagger-3"/>
-                    <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/09/Sponsor-5.png"
-                        alt="SeaLight" className="reveal-up reveal-stagger-4"/>
-                </div>
-            </section>
 
-            {/* Team Section */}
-            <section className="team-section">
-                <div className="team-header text-center reveal-up">
-                    <h5 className="subtitle-orange">Our Team</h5>
-                    <h2 className="section-title-white">Faces Behind<br/><span className="text-green">Print</span> Ideas</h2>
-                </div>
-                <div className="team-grid">
-                    {/* Team Member 1 */}
-                    <div className="team-card reveal-up reveal-stagger-1">
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Print-Team-1-800x1000.jpg"
-                            alt="Liam Carter" />
-                        <div className="team-info bg-blue">
-                            <h4>LIAM CARTER</h4>
-                            <p>Print Director</p>
-                            <div className="socials">
-                                <span>f</span><span>t</span><span>in</span>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Team Member 2 */}
-                    <div className="team-card reveal-up reveal-stagger-2">
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Print-Team-2-800x1000.jpg"
-                            alt="Maya Flores" />
-                        <div className="team-info bg-blue">
-                            <h4>MAYA FLORES</h4>
-                            <p>Design Lead</p>
-                            <div className="socials">
-                                <span>f</span><span>t</span><span>in</span>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Team Member 3 */}
-                    <div className="team-card reveal-up reveal-stagger-3">
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Print-Team-3-800x1000.jpg"
-                            alt="Sofia Turner" />
-                        <div className="team-info bg-blue">
-                            <h4>SOFIA TURNER</h4>
-                            <p>Project Manager</p>
-                            <div className="socials">
-                                <span>f</span><span>t</span><span>in</span>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Team Member 4 */}
-                    <div className="team-card reveal-up reveal-stagger-4">
-                        <img src="https://templates.casloop.net/printiva/wp-content/uploads/sites/59/2025/08/Print-Team-4-800x1000.jpg"
-                            alt="Ethan Brooks" />
-                        <div className="team-info bg-blue">
-                            <h4>ETHAN BROOKS</h4>
-                            <p>Color Specialist</p>
-                            <div className="socials">
-                                <span>f</span><span>t</span><span>in</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {/* Testimonials Section */}
             <section className="testimonials-section">
